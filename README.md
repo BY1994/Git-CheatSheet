@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-### Git commit patch
+## Git commit patch
 
 현재 commit 부터 입력한 commit 이전까지의 각 commit마다 패치 생성
 
@@ -18,7 +18,7 @@ $ git am -3 [patch file]
 
 
 
-### Git diff patch
+## Git diff patch
 
 commit이 만들어지지 않은 수정 사항으로도 패치를 생성할 수 있다.
 
@@ -34,7 +34,7 @@ $ git apply [patch file]
 
 
 
-### Git Commit Messages Style
+## Git Commit Messages Style
 
 다음과 같이 commit message 앞의 카테고리 명은 chore, docs, feat, fix, refactor, style, test가 가능하다. [링크](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
